@@ -1,0 +1,59 @@
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #414141;
+    color: #ededed;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+h1 {
+    padding-top: 50px;
+    display: inline-block;
+    font-size: 300%;
+    font-weight: 400;
+}
+
+.location {
+    display: inline-block;
+}
+
+.temperature {
+    display: inline-block;
+}
+
+.temperature:hover {
+    cursor: pointer;
+}
+
+.weather {
+    display: inline-block;
+}
+
+.box {
+    margin: 10px auto; 
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.weather-image {
+    height: 150px;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
